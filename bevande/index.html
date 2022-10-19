@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bevande</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body style="background-color: darkgrey;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/bevande/index.html">Bevande</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/supermercato/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/frutta/index.html">Frutta e Verdura</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/igiene/index.html">Igiene personale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/detersivi/index.html">Detersivi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/carne/index.html">Carne e Pesce</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/pane/index.html">Pane e Snack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/surgelati/index.html">Surgelati</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Prodotti
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#alcolici">Alcolici</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#alcolici">Bibite</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#alcolici">Succhi</a></li>
+                </ul>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/bevande/images/vodka.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/bevande/images/bibite.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/bevande/images/succo.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+
+      <!-- card principale -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+            <div class="card" style="width: 18rem;" id="alcolici">
+                <img src="/bevande/images/vodak.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alcolici</h5>
+                  <p class="card-text">i migliori alcolici della city solo da noi!</p>
+                  <a href="#" class="btn btn-primary">Altro</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+            <div class="card" style="width: 18rem;">
+                <img src="/bevande/images/benvd.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bibite</h5>
+                  <p class="card-text">le migliori bibite della city solo da noi!</p>
+                  <a href="#" class="btn btn-primary">Altro</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+            <div class="card" style="width: 18rem;">
+                <img src="/bevande/images/suchi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Succhi</h5>
+                  <p class="card-text">il migiore succo della city solo da noi!!</p>
+                  <a href="#" class="btn btn-primary">Altro</a>
+                </div>
+            </div>
+        </div>   
+      </div>
+    </div>
+
+    <br>
+    <!-- card prodotti1-->
+    <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;" id="alcolici">
+                  <img src="/bevande/images/jager.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jager</h5>
+                    <p class="card-text">il miglior jager della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/7up.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">7UP</h5>
+                    <p class="card-text">la migliore 7UP della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/succo melograno.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Succo melograno</h5>
+                    <p class="card-text">il migiore succo della city solo da noi!!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>   
+        </div>
+      </div>
+
+      <br>
+    <!-- card prodotti2-->
+    <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;" id="alcolici">
+                  <img src="/bevande/images/sambuga.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sambuca</h5>
+                    <p class="card-text">la migliore sambuca della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/cola.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola</h5>
+                    <p class="card-text">la coca migliore della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/succo1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Succho d'arancia</h5>
+                    <p class="card-text">il migiore succo della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>   
+        </div>
+      </div>
+
+      <br>
+    <!-- card prodotti3-->
+    <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;" id="alcolici">
+                  <img src="/bevande/images/vodka bella.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Vodka</h5>
+                    <p class="card-text">la migliore vodka  della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/redbull.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Redbull</h5>
+                    <p class="card-text">la migliore redbull della city solo da noi!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="/bevande/images/succo anguria.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Succo d'anguria</h5>
+                    <p class="card-text">il migiore succo della city solo da noi!!</p>
+                    <a href="#" class="btn btn-primary">Altro</a>
+                  </div>
+              </div>
+          </div>   
+        </div>
+      </div>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+        </footer>
+      </div>
+
+  </body>
+</html>
