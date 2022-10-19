@@ -10,25 +10,25 @@ Ettore, Alessio e Kevin
 Thomas e Matteo
 
 3) Igiene personale
-/igiene
+/igiene/index.html
 Luca e Endri
 
 4) Detersivi
-/detersivi
+/detersivi/index.html
 Cristian e Davide
 
 5) Carne e pesce
-/carne
+/carne/index.html
 Giacomo e Simone
 
 6) Pane e snack
-/pane
+/pane/index.html
 Leonardo e Mattia
 
 7) Surgelati
-/surgelati
+/surgelati/index.html
 Riccardo e Nicola
 
 8) Bevande
-/bevande
+/bevande/index.html
 Tommaso e Tommaso
